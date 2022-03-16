@@ -1,1 +1,1 @@
-#quanttide-flavored-markdown-docs
+# QuantTide Flavored Markdown
