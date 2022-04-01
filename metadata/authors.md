@@ -13,12 +13,13 @@
 
 - `author`: 单个主要作者，值为字符串。
 - `authors`: 多个主要作者，值为数组。
-- `coauthors`: 合著者，值为数组
+- `coauthor`: 单个合著者，值为字符串。
+- `coauthors`: 多个合著者，值为数组
 
 ### 约束
 
-- `author`和`authors`不可以同时存在。
-- `coauthors`不可以单独存在，必须要有`author`或者`authors`存在。
+- `author`和`authors`不可以同时存在，`coauthor`和`coauthors`不可以同时存在。
+- `coauthor`或者`coauthors`不可以单独存在，必须要有`author`或者`authors`存在。
 
 ## 最佳实践
 
@@ -39,8 +40,7 @@ author: 张三
 ```yaml
 ---
 author: 张三
-coauthors:
-  - 李四
+coauthor: 李四
 ---
 ```
 
@@ -65,4 +65,5 @@ authors:
   - 李四
 coauthors:
   - 王五
+  - 赵小二
 ```
