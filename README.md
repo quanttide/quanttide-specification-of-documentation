@@ -1,1 +1,1 @@
-# QuantTide Flavored Markdown
+# 量潮文档规范
