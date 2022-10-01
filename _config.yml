@@ -1,0 +1,8 @@
+name: quanttide-documentation-specification
+title: 量潮文档规范
+author: 量潮科技
+description: 基于Jupyter Book和MyST Markdown拓展，为量潮及其合作伙伴的文档解析和渲染提供标准化的领域模型和工程实现规范。
+stage: alpha
+category: doc
+# Jupyter Book Config
+only_build_toc_files: true
