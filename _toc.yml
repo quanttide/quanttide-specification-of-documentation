@@ -1,13 +1,13 @@
 format: jb-book
+root: README.md
 chapters:
   - file: books/README.md
     sections: 
       - file: books/config.md
       - file: books/toc.md
+      - file: books/version.md
+      - file: books/modification_date.md
   - file: articles/README.md
     sections: 
-      - file: articles/modification_date.md
       - file: articles/meta/README.md
-        sections: 
-          - file: articles/meta/authors.md
-          - file: articles/meta/reviewers.md
+      - file: articles/modification_date.md
