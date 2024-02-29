@@ -1,16 +1,24 @@
 format: jb-book
 root: README.md
-chapters:
-  - file: books/README.md
-    sections: 
-      - file: books/config.md
-      - file: books/toc.md
-      - file: books/version.md
-      - file: books/modification_date.md
-  - file: articles/README.md
-    sections: 
-      - file: articles/meta/README.md
-      - file: articles/modification_date.md
-  - file: tutorials/README.md
-    sections:
-      - file: tutorials/tags.md
+parts:
+  - caption: 文档格式
+    chapters:
+      - url: https://jupyterbook.org/en/stable/intro.html
+        title: JupyterBook
+      - url: https://myst-parser.readthedocs.io/en/latest/
+        title: MyST Markdown
+  - caption: 文档工程
+    chapters:
+    - file: books/README.md
+      sections:
+        - file: books/config.md
+        - file: books/toc.md
+        - file: books/version.md
+        - file: books/modification_date.md
+    - file: articles/README.md
+      sections:
+        - file: articles/meta/README.md
+        - file: articles/modification_date.md
+    - file: tutorials/README.md
+      sections:
+        - file: tutorials/tags.md
